@@ -1,0 +1,6 @@
+@PIA_BDD_Eq2_HostAddress = http://localhost:5001
+
+GET {{PIA_BDD_Eq2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

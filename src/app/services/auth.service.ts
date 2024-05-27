@@ -1,16 +1,32 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { AsisRegEventBol } from '../model/registro-evento.model';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
 
+  private apiUrl = 'http://localhost:5000/api/auth'; // URL del endpoint de autenticación
+
   private user = {
-    role: 'Administrador general', // Este es un ejemplo, deberías obtener esta información de tu sistema de autenticación
-    dependencia: 'Ciencias' // Ejemplo, la dependencia del usuario autenticado
+    role: 'Administrador general',
+    dependencia: ''
   };
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
+
+  login(correo: string, contraseña: string): Observable<any> {
+    return this.http.post<any>(`${this.apiUrl}/login`, { correo, contraseña });
+  }
+
+  private apiUrll = 'http://localhost:5000/api/asistente'; // URL del endpoint de registro
+
+  registrarAsistente(asistente: AsisRegEventBol): Observable<any> {
+    return this.http.post<any>(`${this.apiUrl}/registrar`, asistente);
+  }
 
   getUserRole(): string {
     return this.user.role;
@@ -19,6 +35,4 @@ export class AuthService {
   getUserDependencia(): string {
     return this.user.dependencia;
   }
-
-  // Aquí puedes agregar métodos para autenticar y manejar el usuario
 }

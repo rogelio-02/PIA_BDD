@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { EventosService } from '../services/eventos.service';
 import { AuthService } from '../services/auth.service';
+import { Evento } from '../model/evento.model';
 
 @Component({
   selector: 'app-crear-evento',
@@ -30,12 +31,31 @@ export class CrearEventoComponent implements OnInit{
     });
   }
 
+  evento: Evento = {
+    evento_ID: 0,
+    lugar_ID: 0,
+    usuario_ID: 0,
+    descripcion: '',
+    nombre: '',
+    fecha: '',
+    hora: '',
+    costo: 0,
+    publicado: 0,
+    categoria: ''
+  };
+
+
+  onSubmit(): void {
+    this.eventosService.crearEvento(this.evento).subscribe(() => {
+      this.router.navigate(['']);
+    });
+  }
+
   ngOnInit(): void {}
 
   crearEvento(): void {
     if (this.eventoForm.valid) {
       const evento = this.eventoForm.value;
-      // Aquí puedes agregar lógica para manejar el costo del evento si es necesario
       this.eventosService.crearEvento(evento).subscribe((response) => {
         console.log('Evento creado:', response);
         // Redireccionar al usuario de vuelta al home después de crear el evento
@@ -43,4 +63,5 @@ export class CrearEventoComponent implements OnInit{
       });
     }
   }
+
 }

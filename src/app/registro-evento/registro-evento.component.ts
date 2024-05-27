@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ActivatedRoute } from '@angular/router';
 import { EventosService } from '../services/eventos.service';
+import { AsisRegEventBol } from '../model/registro-evento.model';
+import { Router } from '@angular/router';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-registro-evento',
@@ -15,9 +17,9 @@ export class RegistroEventoComponent implements OnInit{
   mostrarMensaje: boolean = false;
 
   constructor(
-    private route: ActivatedRoute,
+    private router: Router,
     private fb: FormBuilder,
-    private eventosService: EventosService
+    private authService: AuthService
   ) {
     this.registroForm = this.fb.group({
       nombre: ['', Validators.required],
@@ -29,34 +31,45 @@ export class RegistroEventoComponent implements OnInit{
     });
   }
 
-  ngOnInit(): void {
-    this.route.params.subscribe(params => {
-      // Obtener el nombre del evento de los parámetros de la ruta
-      this.nombreEvento = 'Nombre del Evento'; // Reemplazar con la lógica para obtener el nombre del evento
-    });
-
-    // Escuchar cambios en el campo de correo para determinar si mostrar la sección extra de matrícula
-    if (this.registroForm) {
-      this.registroForm.get('correo')?.valueChanges.subscribe(correo => {
-        this.mostrarSeccionMatricula = this.validarCorreoRegistrado(correo);
-      });
-    }
-  }
-
-  validarCorreoRegistrado(correo: string): boolean {
-    // Lógica para determinar si el correo coincide con un usuario registrado
-    // Retorna verdadero si el correo coincide, falso de lo contrario
-    return true; // Reemplazar con la lógica real
-  }
+  ngOnInit(): void {}
 
   registrar(): void {
     if (this.registroForm.valid) {
-      // Lógica para registrar al usuario al evento
       this.mostrarMensaje = true;
       console.log('Formulario válido, registrando usuario...');
     } else {
-      // Manejar caso en que el formulario no es válido
       console.log('Formulario no válido, no se puede registrar.');
     }
+  }
+
+  asistente: AsisRegEventBol = {
+    nombreAsistente: '',
+    apellidoPaternoAsistente: '',
+    apellidoMaternoAsistente: '',
+    correoAsistente: '',
+    tipoAsistente: '',
+    semestre: 0,
+    telefono: 0,
+    matricula: 0,
+    evento_ID: 0,
+    fecha_Registro: '',
+    estadoPago: '',
+    asiento: ''
+  };
+
+  onSubmit(): void {
+    this.authService.registrarAsistente(this.asistente).subscribe(
+      response => {
+        if (response.success) {
+          // Navegar a otra página después del registro exitoso
+          this.router.navigate(['']);
+        } else {
+          alert('Error al registrar asistente');
+        }
+      },
+      error => {
+        console.error('Error al registrar asistente', error);
+      }
+    );
   }
 }

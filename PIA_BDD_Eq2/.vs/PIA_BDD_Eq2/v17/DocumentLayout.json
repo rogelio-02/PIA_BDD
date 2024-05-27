@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|c:\\users\\xpert\\desktop\\facultad\\cuarto semestre\\labbd\\pia\\pia_bdd_eq2\\pia_bdd_eq2\\data\\eventodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|solutionrelative:pia_bdd_eq2\\data\\eventodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|c:\\users\\xpert\\desktop\\facultad\\cuarto semestre\\labbd\\pia\\pia_bdd_eq2\\pia_bdd_eq2\\models\\asisregeventbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|solutionrelative:pia_bdd_eq2\\models\\asisregeventbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|c:\\users\\xpert\\desktop\\facultad\\cuarto semestre\\labbd\\pia\\pia_bdd_eq2\\pia_bdd_eq2\\models\\usuarioconregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|solutionrelative:pia_bdd_eq2\\models\\usuarioconregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|c:\\users\\xpert\\desktop\\facultad\\cuarto semestre\\labbd\\pia\\pia_bdd_eq2\\pia_bdd_eq2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|solutionrelative:pia_bdd_eq2\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|c:\\users\\xpert\\desktop\\facultad\\cuarto semestre\\labbd\\pia\\pia_bdd_eq2\\pia_bdd_eq2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|solutionrelative:pia_bdd_eq2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|c:\\users\\xpert\\desktop\\facultad\\cuarto semestre\\labbd\\pia\\pia_bdd_eq2\\pia_bdd_eq2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|solutionrelative:pia_bdd_eq2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|c:\\users\\xpert\\desktop\\facultad\\cuarto semestre\\labbd\\pia\\pia_bdd_eq2\\pia_bdd_eq2\\controllers\\piacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F44EB1-6758-4AFB-807B-A2FDDAA43F1B}|PIA_BDD_Eq2\\PIA_BDD_Eq2.csproj|solutionrelative:pia_bdd_eq2\\controllers\\piacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioConRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Models\\UsuarioConRegistro.cs",
+              "RelativeDocumentMoniker": "PIA_BDD_Eq2\\Models\\UsuarioConRegistro.cs",
+              "ToolTip": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Models\\UsuarioConRegistro.cs",
+              "RelativeToolTip": "PIA_BDD_Eq2\\Models\\UsuarioConRegistro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:46:56.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "PIA_BDD_Eq2\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Models\\Evento.cs",
+              "RelativeToolTip": "PIA_BDD_Eq2\\Models\\Evento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:46:54.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PiaController.cs",
+              "DocumentMoniker": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Controllers\\PiaController.cs",
+              "RelativeDocumentMoniker": "PIA_BDD_Eq2\\Controllers\\PiaController.cs",
+              "ToolTip": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Controllers\\PiaController.cs",
+              "RelativeToolTip": "PIA_BDD_Eq2\\Controllers\\PiaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:31:17.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Program.cs",
+              "RelativeDocumentMoniker": "PIA_BDD_Eq2\\Program.cs",
+              "ToolTip": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Program.cs",
+              "RelativeToolTip": "PIA_BDD_Eq2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:30:51.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\appsettings.json",
+              "RelativeDocumentMoniker": "PIA_BDD_Eq2\\appsettings.json",
+              "ToolTip": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\appsettings.json",
+              "RelativeToolTip": "PIA_BDD_Eq2\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T00:30:35.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventoData.cs",
+              "DocumentMoniker": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Data\\EventoData.cs",
+              "RelativeDocumentMoniker": "PIA_BDD_Eq2\\Data\\EventoData.cs",
+              "ToolTip": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Data\\EventoData.cs",
+              "RelativeToolTip": "PIA_BDD_Eq2\\Data\\EventoData.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAgwHMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:29:51.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AsisRegEventBol.cs",
+              "DocumentMoniker": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Models\\AsisRegEventBol.cs",
+              "RelativeDocumentMoniker": "PIA_BDD_Eq2\\Models\\AsisRegEventBol.cs",
+              "ToolTip": "C:\\Users\\Xpert\\Desktop\\Facultad\\Cuarto Semestre\\LabBD\\Pia\\PIA_BDD_Eq2\\PIA_BDD_Eq2\\Models\\AsisRegEventBol.cs",
+              "RelativeToolTip": "PIA_BDD_Eq2\\Models\\AsisRegEventBol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:29:49.3Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-iniciar-sesion',
@@ -8,27 +9,30 @@ import { Router } from '@angular/router';
   styleUrl: './iniciar-sesion.component.css'
 })
 export class IniciarSesionComponent implements OnInit{
-  loginForm: FormGroup;
-
-  constructor(private fb: FormBuilder, private router: Router) {
-    this.loginForm = this.fb.group({
-      correo: ['', [Validators.required, Validators.email]],
-      contrasena: ['', [Validators.required, Validators.minLength(6)]]
-    });
-  }
 
   ngOnInit(): void {}
 
-  onSubmit(): void {
-    if (this.loginForm.valid) {
-      const { correo, contrasena } = this.loginForm.value;
-      // Aquí debes implementar la lógica de autenticación con tu servicio
-      console.log('Correo:', correo);
-      console.log('Contraseña:', contrasena);
+  correo: string = '';
+  contraseña: string = '';
 
-      // Si la autenticación es exitosa, redirigir al usuario
-      this.router.navigate(['/home']);
-    }
+  constructor(private authService: AuthService, private router: Router) { }
+
+  onSubmit(): void {
+    this.authService.login(this.correo, this.contraseña).subscribe(
+      response => {
+        if (response.success) {
+          // Redirige a la página de inicio u otra ruta protegida
+          this.router.navigate(['']);
+        } else {
+          // Maneja el error de inicio de sesión
+          alert('Correo o contraseña incorrectos');
+        }
+      },
+      error => {
+        // Maneja los errores de inicio de sesión
+        console.error('Error de inicio de sesión', error);
+      }
+    );
   }
 
 }

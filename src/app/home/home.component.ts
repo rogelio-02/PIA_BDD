@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { EventosService } from '../services/eventos.service';
 import { AuthService } from '../services/auth.service';
+import { Evento } from '../model/evento.model';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +14,7 @@ export class HomeComponent implements OnInit {
   searchForm: FormGroup;
   categorias: string[] = ['Conferencia', 'Taller', 'Seminario'];
   dependencias: string[] = ['Ciencias', 'Artes', 'Deportes'];
-  eventos: any[] = [];  // Aquí puedes definir el tipo de eventos si tienes una interfaz
+  eventos: Evento[] = [];
 
   constructor(
     private fb: FormBuilder,
@@ -33,7 +34,7 @@ export class HomeComponent implements OnInit {
   }
 
   cargarEventos(): void {
-    this.eventosService.getEventos().subscribe((data: any[]) => {
+    this.eventosService.getEventos().subscribe(data => {
       this.eventos = data;
     });
   }
@@ -51,11 +52,16 @@ export class HomeComponent implements OnInit {
   }
 
   verDetalle(id: number): void {
-    this.router.navigate([`/eventos/${id}`]);
+    this.router.navigate([`/carta-evento/${id}`]);
   }
 
-  editarEvento(id: number): void {
-    this.router.navigate([`/eventos/editar/${id}`]);
+  editarEvento(evento: Evento) {
+    this.eventosService.editarEvento(evento.evento_ID, evento).subscribe(response => {
+      const index = this.eventos.findIndex(e => e.evento_ID === evento.evento_ID);
+      if (index !== -1) {
+        this.eventos[index] = evento;
+      }
+    });
   }
 
   isAdminGeneral(): boolean {
@@ -78,10 +84,9 @@ export class HomeComponent implements OnInit {
     return role === 'Administrador general' || (role === 'Administrador dependencia' && evento.dependencia === dependencia);
   }
 
-  eliminarEvento(id: number): void {
-    this.eventosService.eliminarEvento(id).subscribe(() => {
-      // Eliminar el evento de la lista actual
-      this.eventos = this.eventos.filter(evento => evento.id !== id);
+  eliminarEvento(id: number) {
+    this.eventosService.eliminarEvento(id).subscribe(response => {
+      this.eventos = this.eventos.filter(evento => evento.evento_ID !== id);
     });
   }
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-//import { Evento } hay q importar el modelo
+import { Evento } from '../model/evento.model';
 import { EventosService } from '../services/eventos.service';
 
 @Component({
@@ -8,9 +8,9 @@ import { EventosService } from '../services/eventos.service';
   templateUrl: './carta-evento.component.html',
   styleUrl: './carta-evento.component.css'
 })
-export class CartaEventoComponent {
+export class CartaEventoComponent implements OnInit{
   eventoId: number | undefined;
-  evento: any; // Asegúrate de importar el modelo de evento si lo tienes
+  evento: Evento | undefined;
 
   constructor(
     private route: ActivatedRoute,

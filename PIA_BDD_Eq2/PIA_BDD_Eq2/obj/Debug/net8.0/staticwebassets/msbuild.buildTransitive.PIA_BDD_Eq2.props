@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PIA_BDD_Eq2.props" />
+</Project>

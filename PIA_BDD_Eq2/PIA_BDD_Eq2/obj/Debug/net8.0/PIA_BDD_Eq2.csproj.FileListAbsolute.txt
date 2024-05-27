@@ -1,0 +1,45 @@
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\appsettings.json
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\PIA_BDD_Eq2.exe
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\PIA_BDD_Eq2.deps.json
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\PIA_BDD_Eq2.runtimeconfig.json
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\PIA_BDD_Eq2.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\PIA_BDD_Eq2.pdb
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.csproj.AssemblyReference.cache
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.AssemblyInfoInputs.cache
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.AssemblyInfo.cs
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.csproj.CoreCompileInputs.cache
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\staticwebassets\msbuild.PIA_BDD_Eq2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\staticwebassets\msbuild.build.PIA_BDD_Eq2.props
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PIA_BDD_Eq2.props
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PIA_BDD_Eq2.props
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\scopedcss\bundle\PIA_BDD_Eq2.styles.css
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_.3AE95C90.Up2Date
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\refint\PIA_BDD_Eq2.dll
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.pdb
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.genruntimeconfig.cache
+C:\Users\Xpert\Desktop\Facultad\Cuarto Semestre\LabBD\Pia\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\ref\PIA_BDD_Eq2.dll
+C:\Users\HP\Downloads\PIA_BDD_Eq2\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.dll
+C:\Users\HP\Downloads\PIA_BDD_Eq2\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\refint\PIA_BDD_Eq2.dll
+C:\Users\HP\Downloads\PIA_BDD_Eq2\PIA_BDD_Eq2\PIA_BDD_Eq2\obj\Debug\net8.0\PIA_BDD_Eq2.pdb

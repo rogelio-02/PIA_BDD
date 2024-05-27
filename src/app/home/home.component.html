@@ -39,12 +39,12 @@
   <mat-card *ngFor="let evento of eventos">
     <mat-card-title>{{ evento.nombre }}</mat-card-title>
     <mat-card-content>
-      <p>{{ evento.lugar }}</p>
+      <p>{{ evento.lugar_ID }}</p>
       <p>{{ evento.descripcion }}</p>
     </mat-card-content>
-    <button mat-button (click)="verDetalle(evento.id)">Ver Detalle</button>
-    <button mat-button (click)="editarEvento(evento.id)" *ngIf="canEditEvent(evento)">Editar</button>
-    <button mat-button (click)="eliminarEvento(evento.id)" *ngIf="canEditEvent(evento)">Eliminar</button>
+    <button mat-button (click)="verDetalle(evento.evento_ID)">Ver Detalle</button>
+    <button mat-button (click)="editarEvento(evento)" *ngIf="canEditEvent(evento)">Editar</button>
+    <button mat-button (click)="eliminarEvento(evento.evento_ID)" *ngIf="canEditEvent(evento)">Eliminar</button>
   </mat-card>
 </div>
 
