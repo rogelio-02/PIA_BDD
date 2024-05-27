@@ -1,0 +1,16 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ evento.nombre }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>Lugar: {{ evento.lugar }}</p>
+    <p>Descripción: {{ evento.descripcion }}</p>
+    <p>Costo: {{evento.costo}}</p>
+    <p>Categoria: {{evento.categoria}}</p>
+    <p>Fecha: {{ evento.fecha }}</p>
+    <p>Hora: {{ evento.hora }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="primary" (click)="registrarse()">Registrarse al Evento</button>
+  </mat-card-actions>
+</mat-card>

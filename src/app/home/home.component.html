@@ -1,0 +1,56 @@
+<mat-toolbar color="primary">
+  <span>Eventos App</span>
+  <span class="spacer"></span>
+  <button mat-button routerLink="/iniciar-sesion">Iniciar Sesión</button>
+</mat-toolbar>
+
+<div class="home-container">
+  <mat-card class="event-options">
+    <mat-card-title>Eventos</mat-card-title>
+    <mat-card-content>
+      <button mat-raised-button color="primary" routerLink="/crear-evento" *ngIf="canCreateEvent()">Crear Evento</button>
+
+      <form [formGroup]="searchForm" (ngSubmit)="onSearch()">
+        <mat-form-field>
+          <mat-label>Buscar por nombre</mat-label>
+          <input matInput formControlName="nombre">
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Categoría</mat-label>
+          <mat-select formControlName="categoria">
+            <mat-option *ngFor="let categoria of categorias" [value]="categoria">{{categoria}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Dependencia</mat-label>
+          <mat-select formControlName="dependencia">
+            <mat-option *ngFor="let dependencia of dependencias" [value]="dependencia">{{dependencia}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <button mat-raised-button color="accent" type="submit">Buscar</button>
+        <button mat-raised-button color="warn" type="button" (click)="onReset()">Restablecer</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card *ngFor="let evento of eventos">
+    <mat-card-title>{{ evento.nombre }}</mat-card-title>
+    <mat-card-content>
+      <p>{{ evento.lugar }}</p>
+      <p>{{ evento.descripcion }}</p>
+    </mat-card-content>
+    <button mat-button (click)="verDetalle(evento.id)">Ver Detalle</button>
+    <button mat-button (click)="editarEvento(evento.id)" *ngIf="canEditEvent(evento)">Editar</button>
+    <button mat-button (click)="eliminarEvento(evento.id)" *ngIf="canEditEvent(evento)">Eliminar</button>
+  </mat-card>
+</div>
+
+<mat-card *ngIf="isAdminGeneral()" class="admin-options">
+  <mat-card-title>Opciones de Administración</mat-card-title>
+  <mat-card-content>
+    <button mat-raised-button color="primary" routerLink="/crear-usuario">Crear Usuario</button>
+  </mat-card-content>
+</mat-card>

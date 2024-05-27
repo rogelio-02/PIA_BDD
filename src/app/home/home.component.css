@@ -1,0 +1,11 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.event-options {
+  margin: 20px;
+}
+
+mat-card {
+  margin: 20px;
+}

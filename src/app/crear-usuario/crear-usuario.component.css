@@ -1,0 +1,26 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+mat-card {
+  width: 400px;
+}
+
+mat-card-title {
+  text-align: center;
+}
+
+.login-link {
+  margin-top: 16px;
+  text-align: center;
+
+  a {
+    margin-left: 8px;
+    text-decoration: none;
+    color: #3f51b5;
+    font-weight: bold;
+  }
+}

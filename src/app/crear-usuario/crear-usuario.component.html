@@ -1,0 +1,49 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button routerLink="">
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+  <span>Crear Cuenta</span>
+</mat-toolbar>
+
+<div class="register-container">
+  <mat-card>
+    <mat-card-title>Crear Cuenta</mat-card-title>
+    <mat-card-content>
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+          <mat-label>Nombre</mat-label>
+          <input matInput formControlName="nombre" required>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Apellido Paterno</mat-label>
+          <input matInput formControlName="apellidoPaterno" required>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Apellido Materno</mat-label>
+          <input matInput formControlName="apellidoMaterno" required>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Dependencia</mat-label>
+          <mat-select formControlName="dependencia" required>
+            <mat-option *ngFor="let dependencia of dependencias" [value]="dependencia">{{dependencia}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Rol</mat-label>
+          <mat-select formControlName="rol" required>
+            <mat-option *ngFor="let rol of roles" [value]="rol">{{rol}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Correo</mat-label>
+          <input matInput formControlName="correo" type="email" required>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Contraseña</mat-label>
+          <input matInput formControlName="contrasena" type="password" required>
+        </mat-form-field>
+        <button mat-raised-button color="primary" type="submit">Crear Cuenta</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

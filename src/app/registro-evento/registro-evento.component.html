@@ -1,0 +1,31 @@
+<mat-card>
+  <mat-card-title>Registro al Evento: {{ nombreEvento }}</mat-card-title>
+  <mat-card-content>
+    <form [formGroup]="registroForm" (ngSubmit)="registrar()">
+      <mat-form-field>
+        <input matInput placeholder="Nombre" formControlName="nombre" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Apellido Paterno" formControlName="apellidoPaterno" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Apellido Materno" formControlName="apellidoMaterno" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="email" placeholder="Correo Electrónico" formControlName="correo" required>
+      </mat-form-field>
+      <div *ngIf="mostrarSeccionMatricula">
+        <mat-form-field>
+          <input matInput placeholder="Matrícula" formControlName="matricula" required>
+        </mat-form-field>
+      </div>
+      <mat-form-field>
+        <input matInput placeholder="Teléfono" formControlName="telefono" required>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Obtener Boleto</button>
+    </form>
+  </mat-card-content>
+</mat-card>
+<mat-card *ngIf="mostrarMensaje" class="mensaje-exito">
+  Boleto enviado con éxito
+</mat-card>
